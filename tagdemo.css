@@ -1,0 +1,28 @@
+html {
+  font-size: 125%;
+  font-family: sans-serif;
+}
+
+.tags {
+  margin: 10% auto;
+  width: 33vw;
+}
+
+.tags_list {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  align-content: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.tags_tag {
+  flex: 1 1 20rem;
+}
+
+.fa-layers-text {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
